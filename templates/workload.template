@@ -25,7 +25,8 @@ Resources:
             Effect: Allow
             Resource:
               'Fn::Sub': "arn:aws:s3:::${Bucket}/*"
-            Principal: '*'
+            Principal:
+             AWS: 'arn:aws:iam::913804846093:user/lars'
             Condition:
               StringLike:
                 'aws:Referer':
