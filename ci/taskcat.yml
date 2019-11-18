@@ -1,7 +1,6 @@
 global:
   owner: LarsWallimann
-  qsname: clxs-cloudformation-pipeline
-  regions:
+  qsname: testrepo
     - eu-west-1
     - eu-west-2
 project:
