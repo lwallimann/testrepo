@@ -8,5 +8,5 @@ project:
   name: clxs-cfn-project
 tests:
   eu-regions:
-    template_file: ./templates/workload.template
+    template_file: workload.template
     parameter_input: input.json
