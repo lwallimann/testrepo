@@ -4,7 +4,9 @@ global:
   regions:
     - eu-west-1
     - eu-west-2
+project:
+  name: clxs-cfn-project
 tests:
   eu-regions:
-    template_file: workload.template
+    template_file: ./templates/workload.template
     parameter_input: input.json
