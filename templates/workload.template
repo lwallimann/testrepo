@@ -12,7 +12,7 @@ Resources:
               SSEAlgorithm: 'aws:kms'
               KMSMasterKeyID: alias/aws/s3
       LoggingConfiguration: {}
-      DeletionPolicy: Delete
+    DeletionPolicy: Delete
   SampleBucketPolicy:
     Type: 'AWS::S3::BucketPolicy'
     Properties:
