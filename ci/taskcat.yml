@@ -3,8 +3,6 @@ global:
   qsname: testrepo
     - eu-west-1
     - eu-west-2
-project:
-  name: clxs-cfn-project
 tests:
   eu-regions:
     template_file: workload.template
