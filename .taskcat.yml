@@ -1,0 +1,12 @@
+global:
+  owner: LarsWallimann
+  qsname: clxs-cloudformation-pipeline
+    - eu-west-1
+    - eu-west-2
+tests:
+  eu-regions:
+    template_file: workload.template
+    parameter_input: input.json
+    regions:
+      - eu-west-1
+      - eu-west-2
