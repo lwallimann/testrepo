@@ -2,7 +2,7 @@ project:
   name: test-pipeline-project
 tests:
   eu-regions:
-    template_file: ./templates/workload.template
+    template: ./templates/workload.template
     regions:
       - eu-west-1
       - eu-west-2
